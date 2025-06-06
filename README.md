@@ -1,2 +1,2 @@
-# Qibolab - QM driver
+# Qibolab - Qblox driver
 
