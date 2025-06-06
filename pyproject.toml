@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "qibolab-qblox"
-version = "0.0.1"
+version = "0.0.2"
 description = "Quantum hardware module and drivers for Qibo"
 authors = ["The Qibo team"]
 license = "Apache License 2.0"
@@ -22,7 +22,7 @@ packages = [{ include = "qibolab_qblox", from = "src" }]
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
 qibolab = "^0.2.6"
-qblox-instruments = "^0.14.2"
+qblox-instruments = "^0.12.0"
 lark = "^1.1.9"
 qcodes = "^0.37.0"
 qcodes_contrib_drivers = "0.18.0"
