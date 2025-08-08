@@ -20,7 +20,7 @@ classifiers = [
 packages = [{ include = "qibolab_qblox", from = "src" }]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.13"
+python = ">=3.10,<3.14"
 qibolab = "^0.2.6"
 qblox-instruments = "^0.12.0"
 lark = "^1.1.9"
