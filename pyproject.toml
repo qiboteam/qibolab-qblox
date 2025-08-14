@@ -21,12 +21,12 @@ packages = [{ include = "qibolab_qblox", from = "src" }]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.14"
-qibolab = "^0.2.6"
-qblox-instruments = "^0.12.0"
+qibolab = "^0.2.8"
+qblox-instruments = "==0.16.0"
 lark = "^1.1.9"
-qcodes = "^0.37.0"
-qcodes_contrib_drivers = "0.18.0"
-pyvisa-py = "0.5.3"
+qcodes = "^0.52.0"
+qcodes_contrib_drivers = "^0.23.0"
+pyvisa-py = "^0.8.0"
 
 [tool.poetry.group.dev]
 optional = true
