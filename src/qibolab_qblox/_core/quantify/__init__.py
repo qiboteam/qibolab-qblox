@@ -1,25 +1,5 @@
-from qibolab import Config, ExecutionParameters, ParallelSweepers, PulseSequence, Result
-from qibolab._core.instruments.abstract import Controller
+from . import coordinator
+from .coordinator import *
 
-
-class QuantifyCoordinator(Controller):
-    bounds: str = "quantify/bounds"
-
-    @property
-    def sampling_rate(self) -> int:
-        return 1
-
-    def connect(self):
-        pass
-
-    def disconnect(self):
-        pass
-
-    def play(
-        self,
-        configs: dict[str, Config],
-        sequences: list[PulseSequence],
-        options: ExecutionParameters,
-        sweepers: list[ParallelSweepers],
-    ) -> dict[int, Result]:
-        return {}
+__all__ = []
+__all__ += coordinator.__all__
