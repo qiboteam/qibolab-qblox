@@ -2984,13 +2984,13 @@ cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
 name = "qblox-instruments"
-version = "0.16.0"
+version = "0.17.1"
 description = "Instrument drivers for Qblox devices."
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "qblox_instruments-0.16.0.tar.gz", hash = "sha256:8a9785d916af27a35c0c51a6a870de5ed879cadb56fff1ee47f4a79a2cf0ad62"},
+    {file = "qblox_instruments-0.17.1.tar.gz", hash = "sha256:8db6fb2606e49bdf03e808205747117543c4815559114977d37cd634431d7f1f"},
 ]
 
 [package.dependencies]
@@ -4359,4 +4359,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<3.14"
-content-hash = "b2b56ff3d9c78ccb50fb633b7685e016057c831e1cdbf0032dff09f74c32c0d8"
+content-hash = "723d4abf80b14cc0c2bf9a01c36b266ab2627b7db3448a5071dfc1a8fc5baa2f"
