@@ -3095,7 +3095,7 @@ pydantic = "^2.4.0"
 scipy = "^1.13.0"
 
 [package.extras]
-backend = ["qibo @ git+https://github.com/qiboteam/qibo"]
+backend = ["qibo (>=0.3.0,<0.4.0)"]
 emulator = ["qutip (>=5.0.2,<6.0.0)"]
 qrng = ["pyserial (>=3.5,<4.0)"]
 
@@ -3103,7 +3103,7 @@ qrng = ["pyserial (>=3.5,<4.0)"]
 type = "git"
 url = "https://github.com/qiboteam/qibolab"
 reference = "HEAD"
-resolved_reference = "eca3fed73407d7ff9a0821b9332ed42baea51614"
+resolved_reference = "5dcf01a69a211276d745751aa32f6e34a4650dd1"
 
 [[package]]
 name = "recommonmark"
